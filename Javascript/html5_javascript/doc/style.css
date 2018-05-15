@@ -1,0 +1,331 @@
+/*******************************************************************************************************************/
+/***************************************************** reset css ***************************************************/
+/*******************************************************************************************************************/
+
+/* 
+	http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0 | 20110126
+	License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin:0; padding:0; border:0; font-size:100%; font:inherit; vertical-align:baseline; }
+img { border:0 none; }
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/*******************************************************************************************************************/
+/***************************************************** reset css ***************************************************/
+/*******************************************************************************************************************/
+
+/*******************************************************************************************************************/
+/***************************************************** noflex grid 12 **********************************************/
+/*******************************************************************************************************************/
+
+.container
+{
+	width: 100%;
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial;
+	margin: auto;
+	line-height: 1.8rem;
+}
+
+@media only screen and (max-width: 480px)
+{	
+	
+	
+	.mob-0 	{ 	display: none;		}
+	.mob-1 	{ 	width : 8.33%; 		}
+	.mob-2 	{ 	width : 16.66%; 	}
+	.mob-3 	{ 	width : 24.99%; 	}
+	.mob-4 	{	width : 33.33%; 	}
+	.mob-5 	{	width : 41.66%; 	}
+	.mob-6 	{ 	width : 49.99%; 	}
+	.mob-7 	{ 	width : 58.33%; 	}
+	.mob-8 	{ 	width : 66.66%; 	}
+	.mob-9 	{ 	width : 74.99%; 	}
+	.mob-10 { 	width : 83.33%; 	}
+	.mob-11 { 	width : 91.66%; 	}
+	.mob-12 { 	width : 100%; 		}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 800px)
+{
+	
+	.tab-0 	{ 	display: none;		}
+	.tab-1 	{ 	width : 8.33%; 		}
+	.tab-2 	{ 	width : 16.66%; 	}
+	.tab-3 	{ 	width : 24.99%; 	}
+	.tab-4 	{	width : 33.33%; 	}
+	.tab-5 	{	width : 41.66%; 	}
+	.tab-6 	{ 	width : 49.99%; 	}
+	.tab-7 	{ 	width : 58.33%; 	}
+	.tab-8 	{ 	width : 66.66%; 	}
+	.tab-9 	{ 	width : 74.99%; 	}
+	.tab-10 { 	width : 83.33%; 	}
+	.tab-11 { 	width : 91.66%; 	}
+	.tab-12 { 	width : 100%; 		}
+}
+
+@media only screen and (min-width: 801px)
+{
+	
+	.container
+	{
+		width: 820px;
+		background-color: #FFFFFF;
+		font-family: Verdana, Arial;
+		margin: auto;
+	}
+	
+	.dsk-0 	{ 	display: none;		}
+	.dsk-1 	{ 	width : 8.33%; 		}
+	.dsk-2 	{ 	width : 16.66%; 	}
+	.dsk-3 	{ 	width : 24.99%; 	}
+	.dsk-4 	{	width : 33.33%; 	}
+	.dsk-5 	{	width : 41.66%; 	}
+	.dsk-6 	{ 	width : 49.99%; 	}
+	.dsk-7 	{ 	width : 58.33%; 	}
+	.dsk-8 	{ 	width : 66.66%; 	}
+	.dsk-9 	{ 	width : 74.99%; 	}
+	.dsk-10 { 	width : 83.33%; 	}
+	.dsk-11 { 	width : 91.66%; 	}
+	.dsk-12 { 	width : 100%; 		}
+}
+
+/*******************************************************************************************************************/
+/***************************************************** noflex grid 12 **********************************************/
+/*******************************************************************************************************************/
+
+/*******************************************************************************************************************/
+/***************************************************** slide lessons ***********************************************/
+/*******************************************************************************************************************/
+
+body
+{
+	background-color: #EEEEEE;
+}
+
+
+
+.section
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	
+	width: 100%;
+	height: 792px;
+	background-color: #EFD807;
+	
+}
+
+	.section_title
+	{
+		width: 100%;
+		font-weight: bold;
+		font-size: 2rem;
+		background-color: #EFD807;
+		color: white;
+		text-align: center;
+		line-height: 3rem;
+	}
+	
+.page
+{
+	display: flex;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	flex-direction: column;
+	height: 792px;
+	background-color: #FFFFFF;
+}
+
+	.page p
+	{
+		margin: 15px; 
+	}
+
+	.page .pagination
+	{
+		margin: 5px;
+		padding: 1px;
+	}
+	
+	.page_title
+	{
+		flex-shrink: 0;
+		flex-grow: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		
+		height: 80px;
+		width: 100%;
+		font-weight: bold;
+		font-size: 1.5rem;
+		background-color: #14b0bf;
+		color: white;
+		text-align: center;
+		margin-top: 0;
+	}
+
+	.page_content
+	{
+		font-size: 1rem;
+		flex-shrink: 1;
+		flex-grow: 2;
+		padding: 15px;
+		background-color: #FFFFFF;
+		color: #666666;
+	}
+
+	.page_list
+	{
+		list-style-type: disc;
+		list-style-position: inside;
+		margin: 15px;
+	}
+
+	.page .legend
+	{
+		font-style: italic;
+		font-size: 0.8rem;
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+	.page code
+	{
+		box-sizing: border-box;
+		background-color: #333333;
+		color: #FAFAFA;
+		line-height: 1.2rem;
+		margin: 0;
+		display: block; 
+		padding: 10px;
+		border: none;
+	}
+
+	.page pre
+	{
+		border: none;
+	}
+	
+	.page strong
+	{
+		font-weight: bold;
+		color: #000000;
+	}
+	
+	.page .pagination
+	{
+		font-style: italic;
+		text-align: right;
+		font-size: 0.6rem;
+		flex-shrink: 0;
+		flex-grow: 0;
+		padding: 5px;
+	}
+
+	.page img{
+		width: 100%;
+		height: auto;
+	}
+
+/*******************************************************************************************************************/
+/***************************************************** slide lessons ***********************************************/
+/*******************************************************************************************************************/
+/*
+Date: 24 Fev 2015
+Author: Pedro Oliveira <kanytu@gmail . com>
+*/
+
+.hljs {
+  color: #a9b7c6;
+  background: #282b2e;
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet {
+  color: #6897BB;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-deletion {
+  color: #cc7832;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link {
+  color: #629755;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #808080;
+}
+
+.hljs-meta {
+  color: #bbb529;
+}
+
+.hljs-string,
+.hljs-attribute,
+.hljs-addition {
+  color: #6A8759;
+}
+
+.hljs-section,
+.hljs-title,
+.hljs-type {
+  color: #ffc66d;
+}
+
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #e8bf6a;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}

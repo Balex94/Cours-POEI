@@ -1,0 +1,30 @@
+
+
+
+body
+{
+	background-color: #FAFAFA;
+	font-family: Arial, Verdana, "Times New Roman", "sans-serif";
+}
+
+img
+{
+	width: auto;
+	height: 100px;
+	
+	-webkit-transform: rotate(0deg) scale(1,1);
+	transform: rotate(0deg) scale(1,1);
+	
+	-webkit-transition: -webkit-transform 10s;
+    transition: transform 10s;
+}
+
+img:hover
+{
+	
+	-webkit-transform: rotate(45deg) scale(2,2);
+	transform: rotate(45deg) scale(2,2);
+	
+	-webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}

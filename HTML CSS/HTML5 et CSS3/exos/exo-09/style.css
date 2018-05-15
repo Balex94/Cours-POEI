@@ -1,0 +1,49 @@
+
+
+
+body
+{
+	background-color: #FAFAFA;
+	font-family: Arial, Verdana, "Times New Roman", "sans-serif";
+}
+
+
+img {
+    -webkit-animation: myfirst 5s;
+    animation: myfirst 5s;
+	-webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
+    animation-iteration-count: 3;
+}
+
+img:hover
+{
+	width: 300px;
+}
+
+
+@-webkit-keyframes myfirst {
+    from 
+	{
+		width: 200px;
+		height: 300px;
+	}
+    to 
+	{
+		height: 100px;
+		width: 100px;
+	}
+}
+
+
+@keyframes myfirst {
+    from 
+	{
+		width: 200px;
+		height: 300px;
+	}
+    to 
+	{
+		height: 100px;
+		width: 100px;
+	}
+}

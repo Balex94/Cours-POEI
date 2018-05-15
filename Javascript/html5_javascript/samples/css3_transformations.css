@@ -1,0 +1,7 @@
+.my_elements{
+    /*centre de l'élement, valeur par défaut*/
+    transform-origin: 50% 50%; 
+    
+    /*décale l'élement de 50 pixels vers la droite et vers le bas*/
+    transform: translate(50,50);
+}

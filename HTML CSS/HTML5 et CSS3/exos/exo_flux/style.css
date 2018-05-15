@@ -1,0 +1,40 @@
+
+
+body
+{
+	background-color: #FAFAFA;
+	font-family: Arial, Verdana, "Times New Roman", "sans-serif";
+}
+
+
+div
+{
+	position: relative;
+	background-color: green;
+	margin: 0;
+	padding: 0;
+	height: 10px;
+}
+p 
+{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	margin: 0;
+	padding: 0;
+	/*display: inline-block;*/
+	/*float: left;*/
+	position: absolute;
+	top: 0;
+	left:0;
+}
+
+h1
+{
+	/*clear: left;*/
+}
+
+p:nth-child(2n)
+{
+	background: blue;
+}

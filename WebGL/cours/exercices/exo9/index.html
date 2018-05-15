@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title></title>
+		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="js/TweenMax.min.js"></script>
+		<script type="text/javascript" src="js/Utils.js"></script>
+		<script type="text/javascript" src="js/Renderer.js"></script>
+		<script type="text/javascript" src="js/ShaderProgram.js"></script>
+		<script type="text/javascript" src="js/Mesh.js"></script>
+		<script type="text/javascript" src="js/Sphere.js"></script>
+		<script type="text/javascript" src="js/Camera.js"></script>
+		<script type="text/javascript" src="js/glMatrix-0.9.5.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</head>
+	<body>
+		<canvas id="canvas" width="800" height="600"></canvas>
+		
+		<div class="right">
+			<h2>Dynamic light position and color:</h2>
+			<label>x</label><input type="text" value="0.0" id="x_pos" />
+			<label>y</label><input type="text" value="0.0" id="y_pos" />
+			<label>z</label><input type="text" value="0.0" id="z_pos" />
+			<br/>
+			<label>r</label><input type="text" value="1.0" id="r_canal" />
+			<label>g</label><input type="text" value="1.0" id="g_canal" />
+			<label>b</label><input type="text" value="1.0" id="b_canal" />
+			<br/>
+			
+			<h2>Ambiant light color:</h2>
+			<label>r</label><input type="text" value="0.1" id="ar_canal" />
+			<label>g</label><input type="text" value="0.1" id="ag_canal" />
+			<label>b</label><input type="text" value="0.1" id="ab_canal" />
+			<br/>
+			
+			<h2>Camera:</h2>
+			<label>x</label><input type="text" value="0.0" id="cam_x" />
+			<label>y</label><input type="text" value="0.0" id="cam_y" />
+			<label>z</label><input type="text" value="0.0" id="cam_z" />
+			<br/>
+			
+			<label>rot(x)</label><input type="text" value="0.0" id="rot_x" />
+			<label>rot(y)</label><input type="text" value="0.0" id="rot_y" />
+			<br/>
+			
+			<button id="change_btn">change</button>
+		</div>
+		
+		
+		<img src="img/moon.gif" style="display:none;" id="texture" />
+	</body>
+</html>

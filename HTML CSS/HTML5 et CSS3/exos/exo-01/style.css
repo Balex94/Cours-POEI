@@ -1,0 +1,44 @@
+
+
+body
+{
+	background-color: #FAFAFA;
+	font-family: Arial, Verdana, "Times New Roman", "sans-serif";
+}
+
+
+ul li
+{
+	background-color: #CCCCCC;
+	color: #333333;
+}
+
+body :nth-child(2n-1)
+{
+	background-color: red;
+}
+
+
+/*
+
+.toto div:nth-of-type(2n-1) ol :nth-child(2n)
+{
+	background-color: #0080C0;
+}
+
+.toto div:nth-of-type(2n-1) ol :nth-child(2n-1)
+{
+	background-color: orange;
+}
+
+.toto div:nth-of-type(2n) ol :nth-child(2n)
+{
+	background-color: #FF0000;
+}
+
+.toto div:nth-of-type(2n) ol :nth-child(2n-1)
+{
+	background-color: green;
+}
+
+*/

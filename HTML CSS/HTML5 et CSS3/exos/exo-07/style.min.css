@@ -1,0 +1,4 @@
+body{background-color:#FAFAFA;font-family:Arial,Verdana,"Times New Roman","sans-serif";}
+#container{position:relative;perspective:100px;}
+#object{position:absolute;border:1px solid black;transform-style:preserve-3d;transform:translate3d(600px,0,-100px) rotateX(45deg) rotateY(45deg);}
+

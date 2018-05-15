@@ -1,0 +1,30 @@
+body
+{
+	background-color: green;
+	font-family: Arial, Verdana, "Times New Roman", "sans-serif";
+}
+
+/*
+ol[class="students"]
+{
+	background-color: red;
+}
+*/
+
+
+ul li
+{
+	color: #333333;
+}
+
+ul li:nth-child(2n + 3)
+{
+	background-color: #0080C0;
+}
+
+ul li:nth-child(2n + 4)
+{
+	background-color: #CCCCCC;
+}
+
+

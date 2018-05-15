@@ -1,0 +1,19 @@
+exo1: 
+	
+	- créer une liste ( <ul><li></li></ul>... ) comprenant 10 élements.
+	
+	- Chaque élement en position paire devra avoir un background-color = à #0080C0
+	
+	- Chaque élement en position impaire devra avoir un background-color = à #CCCCCC
+	
+	- Chaque élement devra avoir une couleur = à #333333
+	 
+	durée de l'exercice: 15 min 
+	internet: autorisé.
+	
+	difficulté supplémentaire: 
+		
+		même énoncé mais uniquement à partir du 3ème enfant de la liste.
+		
+		15 minutes.
+		internet autorisé.

@@ -1,0 +1,26 @@
+@media only screen and (max-width:480px){
+    .full{ width: 100%; box-sizing: border-box; padding: 5px; }
+}
+
+
+@media only screen and (min-width:481px) and (max-width:800px){
+    .mid{ width: 50%; box-sizing: border-box; padding: 5px; }
+}
+
+@media only screen and (min-width:801px){
+    .third{ width: 33.33%; box-sizing: border-box; padding: 5px; }
+}
+
+
+
+
+.hbig{height: 300px; }
+
+.bgcolor1{ background-color: #333333;}
+.color1{color: #333333;}
+
+.bgcolor2{background-color: #ffffff;}
+.color2{color: #ffffff; }
+
+.left{ float: left; }
+.clear{ clear: both; }

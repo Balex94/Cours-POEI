@@ -1,0 +1,88 @@
+	
+body
+{
+	background-color: black;
+}
+
+#header
+{
+	margin: auto;
+	height: 100px;
+	text-align: center;
+	padding: 1px;
+}
+
+#header img
+{
+	height: 100px;
+	width: auto;
+}
+
+#map
+{
+	margin: auto;
+	width: 800px;
+	height: 449px;
+	background-image: url("img/troll.jpg");
+	overflow: auto;
+	position: relative;
+}
+
+.panel
+{
+	width: 500px;
+	height: 300px;
+	background-color: #333333;
+	border: 2px solid #FAFAFA;
+	position: absolute;
+	top: 50px;
+	padding: 15px;
+}
+
+	.panel p
+	{
+		width: 350px;
+		display: block;
+		position: absolute;
+		left: 150px;
+	}
+
+	.panel img
+	{
+		width: 100px;
+		height: auto;
+		display: block;
+		position: absolute;
+		top: 50px;
+	}
+
+	
+#bilbo
+{
+	left: 150px;
+}
+
+#gollum
+{
+	left: 950px;
+}
+
+#ring
+{
+	left: 1750px;
+}
+
+#end
+{
+	position: absolute;
+	left: 2400px;
+	width: 10px;
+	height: 10px;
+	background-color: red;
+}
+
+
+#time
+{
+	color: white;
+}

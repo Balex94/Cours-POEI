@@ -1,0 +1,48 @@
+body
+{
+	background-color: #333333;
+}
+
+.container
+{
+	width: 80%;
+	margin: auto;
+	background-color: white;
+	display: flex;
+	height: 500px;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	
+	justify-content: space-around;
+	align-items: center;
+	
+	
+	
+}
+
+.carre
+{
+	width: 320px;
+	height: 50px;
+	flex-shrink: 1;
+	flex-grow: 3;
+	/*margin: auto;*/
+}
+
+.rouge
+{
+	background-color: red;
+	/*order: 2;*/
+}
+.vert
+{
+	flex-shrink: 0.5;
+	background-color: green;
+	/*align-self: flex-start;*/
+	/*order: 1;*/
+}
+.bleu
+{
+	background-color: cyan;
+	/*order: 3;*/
+}
