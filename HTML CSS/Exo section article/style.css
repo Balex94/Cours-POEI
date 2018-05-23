@@ -1,0 +1,119 @@
+@media only screen and (max-width:480px){
+    .mob-0{ display: none; }
+    .mob-1{ width: 4.17%; }
+    .mob-2{ width: 8.33%; }
+    .mob-3{ width: 12.5%; }
+    .mob-4{ width: 16.67%; }
+    .mob-5{ width: 20.83%; }
+    .mob-6{ width: 25%; }
+    .mob-7{ width: 29.17%; }
+    .mob-8{ width: 33.33%; }
+    .mob-9{ width: 37.5%; }
+    .mob-10{ width: 41.67%; }
+    .mob-11{ width: 45.83%; }
+    .mob-12{ width: 50%; }
+    .mob-13{ width: 54.17%; }
+    .mob-14{ width: 58.33%; }
+    .mob-15{ width: 62.5%; }
+    .mob-16{ width: 66.67%; }
+    .mob-17{ width: 70.83%; }
+    .mob-18{ width: 75%; }
+    .mob-19{ width: 79.17%; }
+    .mob-20{ width: 83.33%; }
+    .mob-21{ width: 87.5%; }
+    .mob-22{ width: 91.67%; }
+    .mob-23{ width: 95.83%; }
+    .mob-24{ width: 100%; }
+	
+}
+
+
+@media only screen and (min-width:481px) and (max-width:800px){
+    .tab-0{ display: none; }
+    .tab-1{ width: 4.17%; }
+    .tab-2{ width: 8.33%; }
+    .tab-3{ width: 12.5%; }
+    .tab-4{ width: 16.67%; }
+    .tab-5{ width: 20.83%; }
+    .tab-6{ width: 25%; }
+    .tab-7{ width: 29.17%; }
+    .tab-8{ width: 33.33%; }
+    .tab-9{ width: 37.5%; }
+    .tab-10{ width: 41.67%; }
+    .tab-11{ width: 45.83%; }
+    .tab-12{ width: 50%; }
+    .tab-13{ width: 54.17%; }
+    .tab-14{ width: 58.33%; }
+    .tab-15{ width: 62.5%; }
+    .tab-16{ width: 66.67%; }
+    .tab-17{ width: 70.83%; }
+    .tab-18{ width: 75%; }
+    .tab-19{ width: 79.17%; }
+    .tab-20{ width: 83.33%; }
+    .tab-21{ width: 87.5%; }
+    .tab-22{ width: 91.67%; }
+    .tab-23{ width: 95.83%; }
+    .tab-24{ width: 100%; }
+}
+
+@media only screen and (min-width:801px){
+    .dsk-0{ display: none; }
+    .dsk-1{ width: 4.17%; }
+    .dsk-2{ width: 8.33%; }
+    .dsk-3{ width: 12.5%; }
+    .dsk-4{ width: 16.67%; }
+    .dsk-5{ width: 20.83%; }
+    .dsk-6{ width: 25%; }
+    .dsk-7{ width: 29.17%; }
+    .dsk-8{ width: 33.33%; }
+    .dsk-9{ width: 37.5%; }
+    .dsk-10{ width: 41.67%; }
+    .dsk-11{ width: 45.83%; }
+    .dsk-12{ width: 50%; }
+    .dsk-13{ width: 54.17%; }
+    .dsk-14{ width: 58.33%; }
+    .dsk-15{ width: 62.5%; }
+    .dsk-16{ width: 66.67%; }
+    .dsk-17{ width: 70.83%; }
+    .dsk-18{ width: 75%; }
+    .dsk-19{ width: 79.17%; }
+    .dsk-20{ width: 83.33%; }
+    .dsk-21{ width: 87.5%; }
+    .dsk-22{ width: 91.67%; }
+    .dsk-23{ width: 95.83%; }
+    .dsk-24{ width: 100%; }
+
+    section:hover{
+    background-color: black;
+    border: 2px ridge brown;
+    color:white;
+}
+
+}
+
+.blackborder{
+    border: 2px ridge brown;
+}
+
+body{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.center{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.mtop{
+    margin-top: 20px;
+}
+
+
+

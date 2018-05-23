@@ -1,0 +1,12 @@
+CACHE MANIFEST
+# mis en cache au premier telechargement
+style.css
+image.png
+
+# pages de repli en cas de ressource inaccessible
+FALLBACK:
+index.html fallback.html
+
+# fichiers qui contourne l'appcache
+NETWORK:
+network.html

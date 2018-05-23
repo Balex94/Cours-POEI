@@ -1,0 +1,63 @@
+p{
+	font-size: 4rem;
+	color: pink;
+	text-shadow:0.50rem 0.50rem rgba(0, 0, 0, 0.5);
+
+}
+
+@keyframes masuperanimation {
+    0% {
+		text-shadow:0.50rem 0.50rem rgba(0, 0, 0, 0.5);
+		word-spacing: normal;
+    }
+
+    25%{
+		text-shadow:0rem 0.50rem rgba(0, 0, 0, 0.5);
+		word-spacing: 2rem; 
+		color: red;
+    }
+
+    50% {
+		text-shadow:-0.50rem -0.50rem rgba(0, 0, 0, 0.5);
+		word-spacing: normal; 
+    }
+
+    75%{
+		text-shadow:-0.50rem 0rem rgba(0, 0, 0, 0.5);
+		word-spacing: 2rem; 
+		color: yellow;
+    }
+
+    100% {
+		text-shadow:0.50rem 0.50rem rgba(0, 0, 0, 0.5);
+		word-spacing: normal; 
+    }
+    150%{
+    			color: green;
+    			font-size: 50rem;
+    }
+}
+
+
+p:hover
+{
+    animation: masuperanimation 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.25,1.53,.89,-0.34);
+}
+
+*{
+	display: inline-block;
+}
+
+img{
+	width:auto;
+	height: 300px
+}
+
+body{
+	background-image: url("fond.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}

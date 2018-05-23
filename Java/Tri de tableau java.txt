@@ -1,0 +1,60 @@
+package Base;
+
+import java.lang.System;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		double[] tab = {	10,
+							19,
+							13,
+							11,
+							19,
+							18,
+							20,
+							15,
+							19,
+							0
+						};
+
+		int i = 0;
+
+		int j = 0;
+
+		int nbNote = tab.length;
+
+		double tampon = 0;
+
+		while(i != 1)
+		{
+
+			i = 1;
+
+			for (j = 0 ; j < nbNote - 1; j++) {
+
+				if(tab[j] > tab[j+1])
+				{
+
+					tampon = tab[j];
+			        tab[j] = tab[j + 1];
+			        tab[j + 1] = tampon;
+			        i = 0 ;
+
+				}
+
+			}
+
+		}
+		
+		System.out.println("le tableau trié est :\r");
+
+		for (i = 0 ; i < nbNote; i++) {
+
+			System.out.println(tab[i]);
+
+		}
+
+	}
+
+}

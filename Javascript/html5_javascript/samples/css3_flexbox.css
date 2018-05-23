@@ -1,7 +1,0 @@
-.container{
-    /*Tout les éléments enfants deviennent des flex-items*/
-    display: flex;
-
-    /* les élements apparaissent en colonne inversée*/
-    flex-direction: column-reverse;
-}
