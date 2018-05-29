@@ -1,0 +1,15 @@
+
+<input [(ngModel)]="zigounette"/>
+{{zigounette}}
+<input [(ngModel)]="price"/>
+{{price}}
+
+
+<div class="catalog">
+
+    <app-product-thumb  class="product" 
+                        *ngFor="let current of catalog  | alpha:zigounette | price:price"
+                        [data]="current" >
+    </app-product-thumb>
+  
+</div>
