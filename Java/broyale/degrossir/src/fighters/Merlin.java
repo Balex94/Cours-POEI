@@ -20,8 +20,6 @@ public class Merlin implements IBarbarian, IHealer, IThief  {
 		this.setGold(500);
 	}
 	
-	
-	
 	public void cut(ICombattant p_warrior) {
 		
 		double max = 30;
@@ -36,16 +34,13 @@ public class Merlin implements IBarbarian, IHealer, IThief  {
 		
 		p_warrior.recevoirDegats( (int)(max) );
 		this.setStamina( (int)(this.stamina - (max * 2)) );	
+		
 	}
 
 	
 	public void doAction() {
 		
-	}		
-	
-	public ArrayList<ICombattant> getOpponents() {
-		return null;
-	}		
+	}			
 	
 	public void dodge() {
 		

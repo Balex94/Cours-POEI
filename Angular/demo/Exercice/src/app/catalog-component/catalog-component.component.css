@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.carre{
+    height: 500px;
+    width: 500px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 3em;
+    color: white;
+}
+.mtop{
+    margin-top: 50px;
+}
+
+.bleu{
+    background-color: blue;
+}
+.rouge{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.vert{
+    background-color: green;
+}
